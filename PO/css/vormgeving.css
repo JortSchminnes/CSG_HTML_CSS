@@ -1,17 +1,265 @@
-html, body {
+*{
     padding: 0;
     margin: 0;
 }
+body{  
+    background-color: #036564;
+}
+a{
+    text-decoration: none;
+}
+@font-face{
+    font-family: 'Dual-300';
+    src: url('../fonts/Dual-300.ttf') format('truetype');
+}
+.menu{
+    display: flex;
+    height: 60px;
+    border: 3px solid #CDB380;
+    flex-direction: row wrap;
+    background-color: #E8DDCB;
+    margin: auto;
+    padding-left: 50px;
 
-body {
-    background: #5d524c;
-    color: #c8c3bf;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    size: 14px;
-    padding-left: 10%;
+}
+.minilogo{
+    height: 60px;
+}
+.menuitem{
+    font-family: 'Dual-300';
+    color: black;
+    width: 165px;
+    height: 50px;
+    margin-left:0px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menuitem:hover{
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 2px;
+}
+.menuitem2{
+    font-family: 'Dual-300';
+    text-decoration: underline;
+    color: black;
+    width: 165px;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 5px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menuitem2:hover{
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 2px;
+}
+.image-logo{
+    display: flex;
+    width: 600px;
+    margin: auto;
+    margin-top: 30px;
+}
+#container{
+    width: 1350px;
+    margin: auto;
+}
+.front-piece{
+    margin-left: 13%;
+    margin-top: 20px;
+    height: 550px;
+    width: 1000px;
+    border: 5px solid #033649;
+    border-radius: 10px;
+}
+.title{
+    margin-top: 10px;
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    color: #033649;
+}
+.buy-button{
+    border: 3px solid #033649;
+    border-radius: 5px;
+    color: aliceblue;
+    width: fit-content;
+    margin: auto;
+    padding: 9px 20px;
+    background-color: #035370;
+    font-family: dual-300;
+    cursor: pointer;
+}
+.buy-button:hover{
+    border: 3px solid #035370;
+    background-color: #033649;
+}
+#container2{
+    width: 1350px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.itemcontainer{
+    background-color: #E8DDCB;
+    border: 5px solid #CDB380;
+    border-radius: 10px;
+    margin: 10px 10px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+.itemtitle{
+    margin: 5px auto;
+    text-align: center;
+    background-color: #CDB380;
+    width: 300px;
+    height: 40px;
+    font-family: dual-300;
+}
+.itemimages{
+    width: 250px;
+    height: 250px;
+    margin: 7px 25px;
+    border: 3px solid #036564;
+    border-radius: 5px;
+}
+p{
+    
+    margin: 10px;
+}
+.abouttext{
+    width: 500px;
+    height: 60px;
+    background-color: #035370;
+}
+#container3{
+    text-align: center;
+    color: aliceblue;
+    width: 500px;
+    background-color: #035370;
+    border: 5px solid #033649;
+    padding: 5px 5px 3px 5px;
+    margin: auto;
+    border-radius: 9px;
+}
+.aboutcontainer{
+    background-color: #035370;
+    border: 5px solid #033649;
+    border-radius: 10px;
+    margin: 10px auto;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+.abouttitle{
+    margin: 5px auto;
+    text-align: center;
+    background-color: #033649;
+    width: 300px;
+    height: 40px;
+    font-family: dual-300;
+}
+#container4{
+    width: 1350px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+}
+.itemimagespage{
+    width: 485px;
+    height: 485px;
+    margin: 5px 25px;
+    border: 3px solid #033649;
+    border-radius: 5px;
+}
+#container5{
+    margin: auto;
+    height: 400px;
+    width: 500px;
+    border: 5px solid #CDB380;
+    background-color: #E8DDCB;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.title2{
+    margin-left: 10px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #033649;
 }
 
-#vogel {
-    width: 225px;
-    height: auto;
+#container6{
+    margin: auto;
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+}
+.pricetag{
+    margin: auto;
+}
+.buy-button2{
+    border: 3px solid #033649;
+    border-radius: 5px;
+    color: aliceblue;
+    width: fit-content;
+    margin: auto;
+    padding: 9px 20px;
+    background-color: #035370;
+    font-family: dual-300;
+    cursor: pointer;
+}
+.buy-button2:hover{
+    border: 3px solid #035370;
+    background-color: #033649;
+}
+.title3{
+    margin: auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #033649;
+    text-align: center;
+}
+.password{
+    margin: auto;
+    width: 100px;
+    height: 20px;
+}
+.title4{
+    margin: 100px auto;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: #033649;
+    text-align: center;
+}
+.buy-button3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #033649;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 19px 30px;
+    background-color: #035370;
+    font-family: dual-300;
+    cursor: pointer;
+}
+.buy-button4{
+    border-radius: 5px;
+    color: aliceblue;
+    width: fit-content;
+    margin: auto;
+    padding: 9px 20px;
+    font-family: dual-300;
+    cursor: pointer;
 }
